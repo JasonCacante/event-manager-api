@@ -31,29 +31,29 @@ gem "bootsnap", require: false
 
 group :development, :test do
   # pry-rails is an alternative to the IRB shell for Ruby [
-  gem 'pry-rails', '~> 0.3.4'
+  gem "pry-rails", "~> 0.3.4"
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
-  # rspec-rails is a testing framework for Rails 
-  gem 'rspec-rails', '~> 7.0', '>= 7.0.1'
+  # rspec-rails is a testing framework for Rails
+  gem "rspec-rails", "~> 7.0", ">= 7.0.1"
   # FactoryBot is a library for setting up Ruby objects as test data
-  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.3'
+  gem "factory_bot_rails", "~> 6.4", ">= 6.4.3"
   # faker is a library for generating fake data
-  gem 'faker', '~> 3.4', '>= 3.4.2'
+  gem "faker", "~> 3.4", ">= 3.4.2"
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
 
 group :test do
   # database_cleaner is a library for cleaning databases
-  gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
+  gem "database_cleaner", "~> 2.0", ">= 2.0.2"
   # database_cleaner-active_record is a library for cleaning databases with ActiveRecord
-  gem 'database_cleaner-active_record', '~> 2.2'
+  gem "database_cleaner-active_record", "~> 2.2"
   # shoulda-matchers is a library for testing Rails
-  gem 'shoulda-matchers', '~> 6.4'
+  gem "shoulda-matchers", "~> 6.4"
 end
 
 # rails i18n is a library for internationalization in Rails
-gem 'rails-i18n', '~> 7.0', '>= 7.0.9'
+gem "rails-i18n", "~> 7.0", ">= 7.0.9"
 # paranoia is a library for soft deletion of records
-gem 'paranoia', '~> 3.0'
+gem "paranoia", "~> 3.0"
