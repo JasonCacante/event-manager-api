@@ -7,5 +7,8 @@ COPY ./Gemfile .
 COPY ./Gemfile.lock .
 RUN bundle config --global frozen 1 && bundle install
 COPY ./ .
-ENTRYPOINT ["./entrypoints/docker-entrypoint.sh"]
+USER root
+COPY ./entrypoints/docker-entrypoint.sh /usr/bin/
+RUN chmod +x /usr/bin/docker-entrypoint.sh
+ENTRYPOINT ["docker-entrypoint.sh"]
 EXPOSE 3000
