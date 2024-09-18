@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# EventParticipant model with associations, validations, and scopes
 class EventParticipant < ApplicationRecord
   # Associations
   belongs_to :user

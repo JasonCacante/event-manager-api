@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# EventCategory model with associations and validations
 class EventCategory < ApplicationRecord
   # Associations
   belongs_to :event
