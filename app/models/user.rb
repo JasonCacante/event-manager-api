@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# User model with associations, validations, and scopes
 class User < ApplicationRecord
   # Associations
   has_many :events, foreign_key: :created_by, dependent: :destroy

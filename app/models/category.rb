@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Category model with associations and validations
 class Category < ApplicationRecord
   # Associations
   has_many :event_categories, dependent: :destroy
