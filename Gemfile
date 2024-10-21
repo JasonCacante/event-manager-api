@@ -39,7 +39,7 @@ group :development, :test do
   # FactoryBot is a library for setting up Ruby objects as test data
   gem "factory_bot_rails", "~> 6.4", ">= 6.4.3"
   # faker is a library for generating fake data
-  gem "faker", "~> 3.4", ">= 3.4.2"
+  gem "faker", "~> 3.5"
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
   # Solargraph is a Ruby language server
