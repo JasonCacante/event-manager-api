@@ -48,7 +48,7 @@ end
 
 group :test do
   # database_cleaner is a library for cleaning databases
-  gem "database_cleaner", "~> 2.0", ">= 2.0.2"
+  gem "database_cleaner", "~> 2.1"
   # database_cleaner-active_record is a library for cleaning databases with ActiveRecord
   gem "database_cleaner-active_record", "~> 2.2"
   # shoulda-matchers is a library for testing Rails
