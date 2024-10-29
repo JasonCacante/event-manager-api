@@ -56,6 +56,6 @@ group :test do
 end
 
 # rails i18n is a library for internationalization in Rails
-gem "rails-i18n", "~> 7.0", ">= 7.0.9"
+gem "rails-i18n", "~> 7.0"
 # paranoia is a library for soft deletion of records
 gem "paranoia", "~> 3.0"
