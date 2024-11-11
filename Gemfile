@@ -35,7 +35,7 @@ group :development, :test do
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
   # rspec-rails is a testing framework for Rails
-  gem "rspec-rails", "~> 7.0", ">= 7.0.1"
+  gem "rspec-rails", "~> 7.1"
   # FactoryBot is a library for setting up Ruby objects as test data
   gem "factory_bot_rails", "~> 6.4", ">= 6.4.3"
   # faker is a library for generating fake data
